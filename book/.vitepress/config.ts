@@ -224,7 +224,7 @@ export default withMermaid(
         provider: 'local'
       },
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/garyhuangdev/cc-harness-book' }
+        { icon: 'github', link: 'https://github.com/garyships/cc-harness-book' }
       ]
     }
   })

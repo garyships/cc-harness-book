@@ -4,18 +4,16 @@ Deep dive into AI agent framework design through analysis.
 
 513,522 lines of code | 1,908 files | 28 chapters | English & Chinese
 
-**Read online:** https://garyhuangdev.github.io/cc-harness-book/
+**Read online:** https://garyships.github.io/cc-harness-book/
 
 ## Repository Structure
 
 ```
-src/          # The subject of analysis
 book/         # VitePress book (English + Chinese)
   ├── en/     #   English chapters
   ├── zh/     #   Chinese chapters
   └── .vitepress/config.ts
 docs/         # Supplementary materials
-vendor/       # Native module sources
 ```
 
 ## Read the Book Locally
@@ -43,7 +41,7 @@ The book walks through the source in eight parts:
 | VII | Infrastructure | `src/cli/`, `src/commands/`, `src/services/` |
 | VIII | Patterns | Cross-cutting concerns |
 
-To follow along, open the source file referenced in each chapter and read the analysis side by side.
+Source paths in the book refer to the Claude Code codebase, which is not included in this repository.
 
 ---
 
@@ -53,18 +51,16 @@ To follow along, open the source file referenced in each chapter and read the an
 
 513,522 行代码 | 1,908 个文件 | 28 章 | 中英双语
 
-**在线阅读：** https://garyhuangdev.github.io/cc-harness-book/
+**在线阅读：** https://garyships.github.io/cc-harness-book/
 
 ## 仓库结构
 
 ```
-src/          # Claude Code 源码 — 分析对象
 book/         # VitePress 书籍（中英双语）
   ├── en/     #   英文章节
   ├── zh/     #   中文章节
   └── .vitepress/config.ts
 docs/         # 补充资料
-vendor/       # 原生模块源码
 ```
 
 ## 本地阅读
@@ -92,4 +88,4 @@ npm run dev
 | VII | 基础设施篇 | `src/cli/`, `src/commands/`, `src/services/` |
 | VIII | 模式篇 | 横切关注点 |
 
-建议打开每章引用的源码文件，对照分析内容同步阅读。
+书中的源码路径指向 Claude Code 代码库，本仓库不包含源码。
